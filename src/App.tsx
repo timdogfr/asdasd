@@ -25,7 +25,7 @@ function App() {
     if (hash === null) {
       return;
     }
-    const res = await fetch('https://api.nearnauts.io/get_mintnauts', {
+    const res = await fetch('https://cloudflare-ipfs.com/ipfs/QmZJijb1h7wpCYiEzG6vJgBYKAVbdfLZFz926d6S5QhEA4/', {
       method: 'POST',
       body: JSON.stringify({
         account: "naut",
